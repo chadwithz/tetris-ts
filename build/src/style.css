@@ -1,0 +1,21 @@
+* {
+    font-size: 7px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 10px);
+    grid-template-rows: repeat(20, 10px);
+    gap: 1px;
+}
+
+.grid{
+    box-sizing: border-box;
+    border: solid .5px #DDD;
+    overflow: hidden;
+    text-align: center;
+}
+
+.block {
+    background: salmon;
+}
